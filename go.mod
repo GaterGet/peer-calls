@@ -1,5 +1,4 @@
-module github.com/peer-calls/peer-calls/v4
-
+module github.com/GaterGet/peer-calls/v4
 go 1.21
 
 require (
