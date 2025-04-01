@@ -1,4 +1,5 @@
-module github.com/GaterGet/peer-calls/v4
+module github.com/GaterGet/peer-calls
+
 go 1.21
 
 require (
@@ -7,6 +8,7 @@ require (
 	github.com/google/uuid v1.3.1
 	github.com/juju/errors v0.0.0-20200330140219-3fe23663418f
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c
+	github.com/peer-calls/peer-calls/v4 v4.2.7
 	github.com/pion/interceptor v0.1.25
 	github.com/pion/logging v0.2.2
 	github.com/pion/randutil v0.1.0
@@ -27,11 +29,13 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/juju/testing v0.0.0-20201030020617-7189b3728523 // indirect
+	github.com/juju/loggo v0.0.0-20200526014432-9ce3a2e09b5e // indirect
 	github.com/klauspost/compress v1.10.3 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
-	github.com/nxadm/tail v1.4.11 // indirect
+	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/pion/datachannel v1.5.5 // indirect
 	github.com/pion/dtls/v2 v2.2.7 // indirect
 	github.com/pion/ice/v2 v2.3.13 // indirect
@@ -51,6 +55,6 @@ require (
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/tools v0.6.0 // indirect
 	google.golang.org/protobuf v1.26.0 // indirect
-	gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b // indirect
+	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
